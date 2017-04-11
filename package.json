@@ -1,0 +1,27 @@
+{
+  "name": "github-crawl",
+  "version": "0.0.1",
+  "description": "A Node.js process to crawl data from GitHub APIs",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nodejs",
+    "github",
+    "data-mining"
+  ],
+  "author": "Wei Wang",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mongodb": "^2.2.25",
+    "node-rdkafka": "^0.10.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
